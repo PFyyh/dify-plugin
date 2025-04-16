@@ -1,0 +1,15 @@
+### 内容审核测试
+POST http://localhost:28888/api/moderation/input
+Content-Type: application/json
+
+{
+    "point": "app.moderation.input",
+    "params": {
+        "app_id": "61248ab4-1125-45be-ae32-0ce91334d021",
+        "inputs": {
+            "var_1": "I will kill you.",
+            "var_2": "I will hurt you."
+        },
+        "query": "I will kill you"
+    }
+}

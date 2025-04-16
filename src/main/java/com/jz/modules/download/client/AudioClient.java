@@ -1,8 +1,9 @@
-package com.example.demo.client;
+package com.jz.modules.download.client;
+
 
 import com.dtflys.forest.annotation.PostRequest;
+import com.jz.modules.download.model.TextRequest;
 import com.dtflys.forest.annotation.Body;
-import com.example.demo.model.TextRequest;
 
 public interface AudioClient {
     @PostRequest(

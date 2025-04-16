@@ -1,4 +1,4 @@
-package com.example.demo.interceptor;
+package com.jz.framework.interceptor;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Map;

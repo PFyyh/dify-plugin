@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.jz.modules.download.service;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.client.AudioClient;
-import com.example.demo.model.TextRequest;
+import com.jz.modules.download.client.AudioClient;
+import com.jz.modules.download.model.TextRequest;
 
 import lombok.RequiredArgsConstructor;
 

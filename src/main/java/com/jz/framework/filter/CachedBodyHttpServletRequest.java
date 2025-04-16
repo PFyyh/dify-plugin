@@ -1,4 +1,5 @@
-package com.example.demo.filter;
+package com.jz.framework.filter;
+
 
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;

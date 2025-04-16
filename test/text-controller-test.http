@@ -1,0 +1,11 @@
+### 文本转语音请求
+POST http://localhost:28888/api/text
+Content-Type: application/json
+
+{
+    "name": "test_audio",
+    "text": "这是一段测试文本，将被转换为语音文件。"
+}
+
+### 下载音频文件
+GET http://localhost:28888/api/audio/download/test_audio.mp3

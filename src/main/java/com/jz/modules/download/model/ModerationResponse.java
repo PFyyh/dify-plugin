@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.jz.modules.download.model;
 
 import java.util.Map;
 
