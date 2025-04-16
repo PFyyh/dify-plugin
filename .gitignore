@@ -3,7 +3,18 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.tar
 
+### Eclipse ###
+.classpath
+.project
 ### STS ###
 .apt_generated
 .classpath
