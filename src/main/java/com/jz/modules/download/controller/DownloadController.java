@@ -31,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @RequestMapping("/api")
 @RequiredArgsConstructor
-public class TextController {
+public class DownloadController {
 
     /** 音频服务 */
     private final AudioService audioService;
