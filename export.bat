@@ -23,7 +23,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 echo 开始导出Docker镜像...
-docker save -o springboot-demo-1.0.0.tar springboot-demo:1.0.0
+docker save -o springboot-demo-1.0.1.tar springboot-demo:1.0.1
 if %ERRORLEVEL% NEQ 0 (
     echo 导出镜像失败！
     exit /b 1
